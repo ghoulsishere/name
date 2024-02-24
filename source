@@ -6,7 +6,7 @@ local whitelist = {
 if whitelist[p.Name] then
 	game.StarterGui:SetCore("SendNotification", {
 Title = "Press [Y] To Toggle";
-Text = "By qvses nigga";
+Text = "By vuxsurge you bitches";
 Duration = 15;
 })
 local vu = game:GetService("VirtualUser")
@@ -13689,8 +13689,24 @@ if not _G.DNAFarmActive then return end
         Menu:FireServer(CountDown)
         wait(2.5)
         workspace.GameEvents.StartPlayer:FireServer()
+        workspace.GameEvents.StartPlayer:FireServer()
+        workspace.GameEvents.StartPlayer:FireServer()
+        workspace.GameEvents.StartPlayer:FireServer()
+        workspace.GameEvents.StartPlayer:FireServer()
+        workspace.GameEvents.StartPlayer:FireServer()
+        workspace.GameEvents.ChangeDinosaur:FireServer(Baby)
+        workspace.GameEvents.ChangeDinosaur:FireServer(Baby)
+        workspace.GameEvents.ChangeDinosaur:FireServer(Baby)
+        workspace.GameEvents.ChangeDinosaur:FireServer(Baby)
+        workspace.GameEvents.ChangeDinosaur:FireServer(Baby)
+        workspace.GameEvents.ChangeDinosaur:FireServer(Baby)
         workspace.GameEvents.ChangeDinosaur:FireServer(Baby)
         wait(3)
+        workspace.GameEvents.ChangeDinosaur:FireServer(Baby)
+        workspace.GameEvents.ChangeDinosaur:FireServer(Baby)
+        workspace.GameEvents.ChangeDinosaur:FireServer(Baby)
+        workspace.GameEvents.ChangeDinosaur:FireServer(Baby)
+        workspace.GameEvents.ChangeDinosaur:FireServer(Baby)
         workspace.GameEvents.ChangeDinosaur:FireServer(Baby)
         workspace.GameEvents.StartPlayer:FireServer()
     end
