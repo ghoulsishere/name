@@ -6,7 +6,7 @@ local whitelist = {
 if whitelist[p.Name] then
 	game.StarterGui:SetCore("SendNotification", {
 Title = "Press [Y] To Toggle";
-Text = "By EvenPast7903";
+Text = "By qvses nigga";
 Duration = 15;
 })
 local vu = game:GetService("VirtualUser")
@@ -11937,6 +11937,16 @@ workspace.GameEvents.ChangeDinosaur:FireServer(targ)
 workspace.GameEvents.ChangeDinosaur:FireServer(targ)
 workspace.GameEvents.ChangeDinosaur:FireServer(targ)
 workspace.GameEvents.StartPlayer:FireServer()
+ end
+    wait(3)
+    if game.Players.LocalPlayer.Character then
+        wait(3)
+    end
+    if game.Players.LocalPlayer.Character then
+        workspace.GameEvents.GoToMenu:FireServer(7)
+        wait(8)
+    end
+end
 end)
 
 
