@@ -5,6 +5,7 @@ game.Players.PlayedAdded:Connect(function(player)
         player:Kick("You are not whitelisted on this server.")
     end
 end)
+
 local p = game.Players.LocalPlayer
 local whitelist = {
    [p.Name] = true
